@@ -25,4 +25,5 @@ python run_finetune.py \
     --hidden_dropout_prob 0.1 \
     --overwrite_output \
     --weight_decay 0.01 \
-    --n_process 8
+    --n_process 8 \
+    --fp16
