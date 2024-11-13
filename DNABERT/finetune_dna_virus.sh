@@ -10,13 +10,13 @@ python run_finetune.py \
     --task_name dnavirus \
     --do_train \
     --do_eval \
-    --data_dir ../../kraken2/viral/finetune_data \
+    --data_dir ../../kraken2_viral_data \
     --max_seq_length 512 \
     --per_gpu_eval_batch_size=32   \
     --per_gpu_train_batch_size=32   \
     --learning_rate 2e-4 \
     --num_train_epochs 5.0 \
-    --output_dir ../../kraken2/viral/DNABERT \
+    --output_dir ../../DNABERT_output \
     --evaluate_during_training \
     --logging_steps 500 \
     --save_steps 100 \
